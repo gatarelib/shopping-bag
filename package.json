@@ -25,7 +25,6 @@
     "Express",
     "MongoDB"
   ],
-  "author": "reeversedev",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/reeversedev/shopping-bag/issues"
