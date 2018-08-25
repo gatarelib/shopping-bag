@@ -23,7 +23,8 @@
   "keywords": [
     "React",
     "Express",
-    "MongoDB"
+    "MongoDB",
+    "Node.js"
   ],
   "license": "MIT",
   "bugs": {
