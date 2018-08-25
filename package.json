@@ -24,7 +24,8 @@
     "React",
     "Express",
     "MongoDB",
-    "Node.js"
+    "Node.js",
+    "Redis"
   ],
   "license": "MIT",
   "bugs": {
