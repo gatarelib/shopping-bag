@@ -1,9 +1,10 @@
-var express = require('express');
-var router = express.Router();
+const express = require('express');
+const router = express.Router();
+const Customer = require('../models/Customer');
 
-/* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+router.post('/add-to-bag', (req, res) => {
+  // Customer.findOneAndUpdate({email: req.body.data.email}, )
+  console.log(req.params.id);
 });
 
 module.exports = router;

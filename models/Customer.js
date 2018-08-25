@@ -10,6 +10,7 @@ let CustomerSchema = new mongoose.Schema({
         required: true
     },
     email: {
+        unique: true,
         type: String,
         required: true
     },
