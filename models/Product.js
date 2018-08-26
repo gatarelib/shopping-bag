@@ -20,6 +20,13 @@ let ProductSchema = new mongoose.Schema({
     image: {
         type: String,
         required: true
+    },
+    sizeQuantity: {
+        total: Number,
+        s: Number,
+        m: Number,
+        l: Number,
+        xl: Number
     }
 });
 
