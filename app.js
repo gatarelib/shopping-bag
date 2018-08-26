@@ -13,6 +13,8 @@ const cors = require('cors');
 
 var app = express();
 
+app.use(cors());
+
 mongoose.Promise = global.Promise;
 
 mongoose.connect(database.url, {useNewUrlParser: true}, () => {

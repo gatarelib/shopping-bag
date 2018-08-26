@@ -24,12 +24,16 @@
   },
   "dependencies": {
     "antd": "^3.8.3",
+    "axios": "^0.18.0",
     "babel-preset-stage-1": "^6.1.18",
     "lodash": "^3.10.1",
     "react": "16.3.2",
     "react-dom": "16.3.2",
-    "react-redux": "5.0.7",
+    "react-redux": "^5.0.7",
     "reactstrap": "^6.4.0",
-    "redux": "4.0.0"
+    "redux": "4.0.0",
+    "redux-logger": "^3.0.6",
+    "redux-promise": "^0.6.0",
+    "redux-thunk": "^2.3.0"
   }
 }
