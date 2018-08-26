@@ -7,7 +7,17 @@ var logger = require('morgan');
 var indexRouter = require('./routes/index');
 var customerRouter = require('./routes/customer');
 
+const mongoose = require('mongoose');
+const database = require('./config/database');
+const cors = require('cors');
+
 var app = express();
+
+mongoose.Promise = global.Promise;
+
+mongoose.connect(database.url, {useNewUrlParser: true}, () => {
+  console.log('Connected to database');
+});
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
