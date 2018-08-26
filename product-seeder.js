@@ -2,8 +2,6 @@ const Product = require('./models/Product');
 
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://reeversedev:jadonyekOujcij7@ds125272.mlab.com:25272/shopping-bag');
-
 var products = [
     new Product({
         _id: '1',
