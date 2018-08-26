@@ -2,7 +2,9 @@ const Product = require('./models/Product');
 
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://reeversedev:jadonyekOujcij7@ds125272.mlab.com:25272/shopping-bag');
+const database = require('./config/database');
+
+mongoose.connect(database.url);
 
 var products = [
     new Product({
